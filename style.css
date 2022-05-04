@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
+body{
+    display: block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+    
+ }
+ header{
+
+ }
+.Nav{
+   
+    text-align: center;
+     display:flex ;
+     height:50px ;
+     background-color: aua;
+     margin: 0px 20px;
+     width: 70em;
+     margin: auto;
+     margin-top: 50px;
+ }
+ 
+ .menu{
+     display: flex;
+     background-color: rd;
+     padding-bottom: 20px;
+     width: 30%;
+     justify-content: space-between;
+     margin-left: 40%;
+ }
+ .Logo{
+     width:40px ;
+     height: 30px;
+     margin-top: 5px;
+ }
+ .Status{
+     display: flex;
+     background-color: brown;
+     width: 200px;
+     height: 300;
+ }
+ .Person{
+     display: flex;
+     margin-left:25%;
+     margin-top:150px;
+ }
+ section{
+     display: block;
+ }
+ .service{
+     margin: auto;
+     width: 300px;
+ }
+ 
+ #Sect1{
+    text-align: center;
+     display:flex ;
+     background-color: auamarine;
+     width: 40%;
+     justify-content: space-between;
+     margin: auto;
+     
+
+ }
+ .Rec{
+    border: solid 2px #541169 ;
+    height:229px;
+    width: 186.5px ;
+    background-color: white ;
+    border-radius: 5px;
+    color: black;
+    
+}
