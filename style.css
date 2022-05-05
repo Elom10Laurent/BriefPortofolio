@@ -73,3 +73,18 @@ body{
     color: black;
     
 }
+#text{
+    text-align: center;
+     display:flex ;
+     background-color: auamarine;
+     width: 38%;
+     justify-content: space-between;
+     margin: auto;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
