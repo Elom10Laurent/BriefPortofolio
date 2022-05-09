@@ -1,44 +1,110 @@
 @import url('https://fonts.googleapis.com/css2? family= Open+Sans & display=swap');
-body{
+
+body
+{
     display: block;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    background-color: black;
     color: white;
-    margin: 0PX;
+    margin:0px;
     
  }
- header{
-    background-image: url(Maq/IMG/ESSAI.png);
-    background-repeat: no-repeat;
-    width: 1691px;
-    height: 504px;
+
+  h1
+  {
+      font-size: 3em;
+  }
+
+  h2 
+  {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+ header
+ {
+     display: flex;
+    background-color: black;
+
  }
- .res{
+
+ #header
+ {
+     display: block;
+     background-color:qua;
+     width: 83%;
+     height:Auto;
+     padding-bottom: 0px;
+
+ }
+
+ #circle
+ {
+    margin-left: auto;
+    background-color: #E0A33E;
+    width: 300px;
+    height: 600px;
+    border-bottom-left-radius: 300px;
+    border-top-left-radius: 300px;
+}
+
+ .res
+ {
+     background-color: ed;
      width: 25px;
      height: 25px;
      margin: 10px;
  }
-.Nav{ right: 0;
-    left: 0;
-   position: relative;
-    margin-top: 25px;
+.Nav
+{
+
+    padding-top: 30px;
      display:flex ;
      height:50px ;
-     background-color: red;
-     margin: 0px 20px;
-     width: 60%;
-     margin-top: 50px;
+     margin: auto;
+     margin-left: 25%;
+     width: 70%;
+     margin-top: px;
  }
  
- .menu{
-     position: relative;
+ .menu
+ {
      display: flex;
      background-color: rd;
      padding-bottom: 20px;
      width: 30%;
      justify-content: space-between;
      margin-left: 40%;
+ }
+
+ li
+ {
+     list-style-type: none;
+     color: white;
+     font-weight: bold;
+ }
+ a img:hover
+ {
+   
+ }
+
+ 
+ a
+  {
+    text-decoration: none;
+    
+ }
+ 
+ a ul li{
+    background-color: #E0A33E;
+    border-radius: 5px;
+
  }
  .Logo{
      width:40px ;
@@ -47,14 +113,27 @@ body{
  }
  .Status{
      display: flex;
-     background-color: brown;
-     width: 200px;
-     height: 300;
+     background-color:brwn;
+
+     width: 30%;
+     height: 40%;
+     text-align: justify;
+ }
+ .Name{
+     background-color: gren;
+
+     width: 15%;
+     height: 30%;
+     margin-top: 270px;
  }
  .Person{
+     background-color: oral;
      display: flex;
      margin-left:25%;
-     margin-top:150px;
+     margin-top:130px;
+    
+     width: 70%;
+     height: 65%;
  }
  section{
      display: block;
@@ -67,7 +146,7 @@ body{
      margin: auto;
      width: 30%;
      color: black;
-     background-color: #541169;
+ 
  }
  
  #Sect1{
@@ -107,7 +186,9 @@ body{
 }*/
 #sectb{
     background-color: black;
-    padding:20px;
+    padding: 20px 0px 0px;
+    height: 700px;
+
 }
 .main{
     display: flex;
@@ -115,16 +196,16 @@ body{
     width: 50%;
     margin: auto;
 }
-#portofolio{
+.porto{
     color: white;
 }
 .portofolio{
     display: flex;
     margin: auto;
-    background-color: ;
     width:730px;
     padding-top: 5px;
     justify-content: space-between;
+    height: 300px;
 
     
 
