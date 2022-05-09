@@ -5,24 +5,34 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: black;
     color: white;
+    margin: 0PX;
     
  }
  header{
-
+    background-image: url(Maq/IMG/ESSAI.png);
+    background-repeat: no-repeat;
+    width: 1691px;
+    height: 504px;
  }
-.Nav{
-   
-    text-align: center;
+ .res{
+     width: 25px;
+     height: 25px;
+     margin: 10px;
+ }
+.Nav{ right: 0;
+    left: 0;
+   position: relative;
+    margin-top: 25px;
      display:flex ;
      height:50px ;
-     background-color: aua;
+     background-color: red;
      margin: 0px 20px;
-     width: 70em;
-     margin: auto;
+     width: 60%;
      margin-top: 50px;
  }
  
  .menu{
+     position: relative;
      display: flex;
      background-color: rd;
      padding-bottom: 20px;
@@ -49,36 +59,55 @@ body{
  section{
      display: block;
  }
+ #sectc{
+    background-color:white;
+    padding:30px;
+ }
  .service{
      margin: auto;
-     width: 300px;
+     width: 30%;
+     color: black;
+     background-color: #541169;
  }
  
  #Sect1{
-    text-align: center;
-     display:flex ;
+     display:flex;
      width: 40%;
      justify-content: space-between;
+     background-color: dakorange;
      margin: auto;
      
 
  }
+ .conteneur{
+     display: inline-block;
+     background-color: lue;
+     width: 187px;
+     color: black;
+ }
+
  .Rec{
-    border: solid 2px #541169 ;
+    border: solid 4px #541169 ;
     height:229px;
     width: 186.5px ;
     background-color: white ;
     border-radius: 5px;
     color: black;
 }
-#text{
+
+/*.text{
     text-align: center;
-     display:flex ;
-     background-color: auamarine;
+     display:inline ;
+     background-color:red;
      width: 38%;
      justify-content: space-between;
      margin: auto;
+     color: black;
 
+}*/
+#sectb{
+    background-color: black;
+    padding:20px;
 }
 .main{
     display: flex;
@@ -86,16 +115,23 @@ body{
     width: 50%;
     margin: auto;
 }
+#portofolio{
+    color: white;
+}
 .portofolio{
     display: flex;
     margin: auto;
-    background-color: isque;
+    background-color: ;
     width:730px;
     padding-top: 5px;
     justify-content: space-between;
 
     
 
+}
+#secta{
+    background-color:white;
+    padding:20px;
 }
 #tof1{
     margin-bottom: 21px;
@@ -124,6 +160,7 @@ body{
     border-radius:16px;
     margin-top: 5=px;
 }
+
 .mg{
     position: absolute;
     display: flex;
@@ -131,57 +168,61 @@ body{
     margin-top: 10px;
     margin-left: 32%;
 }
-.contact{
-    display: flex;
-    background-color: beige;
-    width: ;
 
+.contact{ 
+    width:auto;
+    margin-left: 9.5%;
+    margin-top: 20px;
+
+
+   
 }
 .formulaire{
-    display: block;
-    margin: auto;
-    background-color: bisque;
-    width:730px;
+    display: inline-block;
+    background-color: bique;
+    width: 23.5em;
     padding-top: 5px;
-    justify-content: space-between;
-
-}
-form{
-    background-color: bisque;
-    width: 235px;
-    height:450px;
-    align-content:space-betwee ;
+    color: black;
     text-align: justify;
+    margin-bottom: auto;
 }
+
+form{
+    background-color:ed;
+    width: 369px;
+    margin-bottom: 0px;
+}
+
 input{
     margin-bottom: 15px;
     width: 369px;
     height: 37px;
+    background-color:#E5E5E5 ;
+    border: 2px black solid;
 }
+
 textarea{
     width: 369px;
     height:106px ;
+    background-color:#E5E5E5 ;
+    border: solid;
 }
-form div {
-    background-color: #93ab51;
-    width: 162%;
-    
- }
- button{
-     display: flex;
-     margin-top: 10px;
-     margin-left:135px ;
-     padding:5px 0px 5px 15px ;
-     width: 83px;
-     height: 30px;
-     background-color: #E0A33E;
-     border: ;
- }
+
+button{
+    display: flex;
+    margin-top: 10px;
+    margin-left:135px ;
+    padding:5px 0px 5px 15px ;
+    width: 83px;
+    height: 30px;
+    background-color: #E0A33E;
+}
+
 #maps{
-    background-color: #541169;
-    width:650px;
-    margin-left: 300px;
+    display: inline-block;
+    margin-left: 20px;
     margin-top: 0px;
+   
 }
 
 footer{
@@ -190,5 +231,6 @@ footer{
     padding-top:5px;
     padding-bottom: 10px;
     margin-bottom: 0px;
+    width: auto;
     height:45px;
 }
