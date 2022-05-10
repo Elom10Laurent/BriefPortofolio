@@ -12,11 +12,13 @@ body
 
   h1
   {
-      font-size: 3em;
+      font-size: 4em;
+      margin: 0px;
   }
 
   h2 
   {
+      background-color: #E0A33E;
     display: block;
     font-size: 2em;
     margin-block-start: 0.83em;
@@ -31,6 +33,7 @@ body
  {
      display: flex;
     background-color: black;
+    
 
  }
 
@@ -76,7 +79,6 @@ body
  .menu
  {
      display: flex;
-     background-color: rd;
      padding-bottom: 20px;
      width: 30%;
      justify-content: space-between;
@@ -89,59 +91,77 @@ body
      color: white;
      font-weight: bold;
  }
- a img:hover
- {
-   
- }
 
- 
  a
   {
     text-decoration: none;
     
  }
  
- a ul li{
+ a:hover{
     background-color: #E0A33E;
     border-radius: 5px;
 
  }
+
  .Logo{
      width:40px ;
      height: 30px;
      margin-top: 5px;
  }
- .Status{
+ .presentation
+ {
      display: flex;
-     background-color:brwn;
+     background-color: #541169;
+     width: 450px;
+     margin-right: 2;
 
-     width: 30%;
-     height: 40%;
-     text-align: justify;
  }
+ 
+
+ .Status{
+     background-color:royalblue ;
+     width:40%;
+     height: auto;
+     text-align: justify;
+     padding-top: 0px;
+ }
+ 
+
  .Name{
      background-color: gren;
 
-     width: 15%;
+     width:auto;
      height: 30%;
      margin-top: 270px;
  }
- .Person{
-     background-color: oral;
-     display: flex;
-     margin-left:25%;
-     margin-top:130px;
+
+ .Person
+ {
+    justify-content: left;
+    background-color: antiquewhite;
+    flex-direction:row-reverse;
+    display: flex;
+    margin-left: 0px;
+    margin-left:25%;
+    margin-top:130px;
+    width:60%;
+    height: auto;
+    padding-right:0px ;
+
+   
     
-     width: 70%;
-     height: 65%;
  }
+
  section{
      display: block;
  }
+
  #sectc{
     background-color:white;
     padding:30px;
  }
+
  .service{
      margin: auto;
      width: 30%;
@@ -150,28 +170,39 @@ body
  }
  
  #Sect1{
-     display:flex;
-     width: 40%;
-     justify-content: space-between;
-     background-color: dakorange;
+     width:auto;
+     height:auto;
      margin: auto;
      
-
+     
  }
- .conteneur{
+
+ .conteneur
+ {
      display: inline-block;
-     background-color: lue;
-     width: 187px;
+     height: 20em;
+     width:16em;
+     margin-right: 50px;
+     padding-bottom: 50px;
+     padding-top: 20px;
+     color: black;padding-bottom: 50px;
+     padding-top: 20px;
      color: black;
+    
+    
+    
+  
+   
  }
 
- .Rec{
+ .Rec
+ {
     border: solid 4px #541169 ;
-    height:229px;
-    width: 186.5px ;
+    width:15em;
+    height:85% ;
     background-color: white ;
     border-radius: 5px;
-    color: black;
+    color: black; 
 }
 
 /*.text{
@@ -184,25 +215,33 @@ body
      color: black;
 
 }*/
-#sectb{
+
+#sectb
+{
     background-color: black;
     padding: 20px 0px 0px;
     height: 700px;
 
 }
-.main{
+
+.main
+{
     display: flex;
     justify-content: space-between;
     width: 50%;
     margin: auto;
 }
-.porto{
+
+.porto
+{
     color: white;
 }
-.portofolio{
+
+.portofolio
+{
     display: flex;
     margin: auto;
-    width:730px;
+    width:auto;
     padding-top: 5px;
     justify-content: space-between;
     height: 300px;
@@ -223,31 +262,23 @@ body
 }
 .Pam{
     background-color:#E0A33E ;
-    width:600px;
-    height:119px;
-    margin: auto;
+    width:30%;
+    height:auto;
     margin-left: 34%;
     border: 2px hsl(286, 72%, 24%) solid;
     border-radius:16px;
     margin-top: 50px;
-}
 
-.Les{
-    background-color:#E0A33E ;
-    width: 33%;
-    height:119px;
-    margin-left: 34%;
-    border: 2px  #541169 solid;
-    border-radius:16px;
-    margin-top: 5=px;
 }
-
 .mg{
-    position: absolute;
-    display: flex;
-    background-color: blueviolet;
+    position: ;
+    float: left;
+    margin-left: 0px ;
+    left: 0px;
+    right: 0px;
     margin-top: 10px;
-    margin-left: 32%;
+    margin-left: -20px;
+    margin-top: -24px;
 }
 
 .contact{ 
@@ -302,7 +333,7 @@ button{
 #maps{
     display: inline-block;
     margin-left: 20px;
-    margin-top: 0px;
+    margin-top: 20px;
    
 }
 
