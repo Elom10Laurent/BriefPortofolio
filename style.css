@@ -27,6 +27,9 @@ body
     font-weight: bold;
     text-align: justify;
 }
+h4{
+    font-size: 2em;
+}
 
  header
  {
@@ -38,6 +41,7 @@ body
 
  #header
  {
+    margin-left: 10%;
      display: block;
      width: auto;
      height:Auto;
@@ -47,14 +51,46 @@ body
 
  #circle
  {
-    margin-left: auto;
+     position: absolute;
+    margin-left: 86.5%;
+    margin-top: 1px;
     background-color: #E0A33E;
     width: 300px;
-    height: 600px;
+    height: 606px;
     border-bottom-left-radius: 300px;
     border-top-left-radius: 300px;
+    animation-name: example;
+    animation-duration: 4s;
+ 
+
+}
+@keyframes example {
+    0% {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:0px;}
+    50%  {background-color:blue; left:0px; top:0px;}
+    75%  {background-color:green; left:0px; top:0px;}
+    75%  {background-color:green; left:0px; top:0px;}
+    100% {background-color:red; left:0px; top:0px;}*/
+  }
+/*
+width: 100px;
+  height: 100px;
+  left: 100%;
+  background-color: red;
+  position: relative;
+  
+  border-radius:50%;
 }
 
+@keyframes example {
+  0% {background-color:red; rigth:0px; top:0px;}
+  25%  {background-color:yellow; left:20px; top:0px;}
+  50%  {background-color:blue; left:300px; top:500px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:100%; top:0px;}
+}
+*/
  .res
  {
      background-color: ed;
@@ -76,11 +112,12 @@ body
  
  .menu
  {
-     display: flex;
-     padding-bottom: 20px;
-     width: 30%;
-     justify-content: space-between;
-     margin-left: 40%;
+     padding-right: 20Px;
+    display: flex;
+    padding-bottom: 20px;
+    margin-left: 40%;
+    width: 30%;
+    justify-content: space-between;
  }
  hr {
     display: block;
@@ -186,16 +223,17 @@ body
      margin-right: 50px;
      padding-bottom: 50px;
      padding-top: 20px;
-     color: black;padding-bottom: 50px;
-     padding-top: 20px;
      color: black;
+     padding-bottom: 50px;
+     padding-top: 20px;
+
     
  }
 
  .Rec
  {
     border: solid 4px #541169 ;
-    width:15em;
+    width:auto;
     height:85% ;
     background-color: white ;
     border-radius: 5px;
@@ -242,12 +280,11 @@ body
 
 .portofolio
 {
-    background-color: #E0A33E;
-    padding: 20px;
     display: flex;
-    grid-column-gap:20px ;
+    grid-column-gap:px ;
     flex-wrap: wrap;
-    padding-left: 25%;
+    margin: auto;
+    width: 60%;
     
 
 
@@ -263,11 +300,7 @@ body
 
 }
 .portofolio > div{
-    border: 4px solid;
-}
-.portofolio > div > div.tof1 > div.tof1-item {
-     margin-bottom: ;
-    
+    margin: auto;
 }
 
 #sms{
@@ -276,7 +309,7 @@ body
 .Pam{
     background-color:#E0A33E ;
     width:30%;
-    height:auto;
+    height: 100px;
     margin-left: 34%;
     border: 2px hsl(286, 72%, 24%) solid;
     border-radius:16px;
@@ -295,7 +328,6 @@ body
 
 .contact{ 
     width:auto;
-    margin-left: 9.5%;
     margin-top: 20px;
 
 
@@ -304,6 +336,7 @@ body
 .formulaire{
     display: inline-block;
     background-color: bique;
+    margin-right: 10px;
     width: 23.5em;
     padding-top: 5px;
     color: black;
@@ -344,9 +377,15 @@ button{
 
 #maps{
     display: inline-block;
-    margin-left: 20px;
-    margin-top: 20px;
+   margin: auto;
+    width: 414px;
+    height: 414px;
+    margin-bottom: 0px;
    
+}
+iframe{
+    width:414px; 
+    height:414px;
 }
 
 footer{
@@ -356,13 +395,15 @@ footer{
     padding-bottom: 10px;
     margin-bottom: 0px;
     width: auto;
-    height:45px;
+    height:100%;
 }
 
 @media screen and (max-width:1739px){
 .menu{
     display: flex;
-   margin: 15px 0px;
+    width: 70%;
+    margin: auto;
+    padding: 0px;
 }
 hr {
     border: none;
@@ -375,15 +416,13 @@ hr {
 }
   
 }
-@media screen  and (max-width:1500px) {
+@media screen  and (max-width:1597px) {
     .Nav{
         margin: auto;
         display: inline-block;
     }
     .menu{ 
-
-        margin-right:38px;
-        width: auto;
+        
         padding-bottom: 5px ;
           
      }
@@ -391,6 +430,26 @@ hr {
 
          margin: auto;
      }
+     .service {
+        margin: auto;
+        width: auto;
+        color: black;
+    }
+    #Sect1 {
+        width: auto;
+        height: auto;
+        margin:auto;
+    }
+    .tof1-item-img{
+        width: 100%;
+    }
+    .portofolio{
+        padding-left: 0px;
+        grid-row-gap: 10px;
+    }
+    
+    
+    
     
     
     
@@ -405,11 +464,29 @@ hr {
     width:60%;
     height: auto;
  }
+ .Pam {
+    background-color: #E0A33E;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border: 2px hsl(286, 72%, 24%) solid;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+#circle
+ {
+    display: none;
+ 
+
+}
 }
 @media screen  and (max-width:669px){
+    body{
+        font-size: 100%;
+    }
     h1{
         font-size:xx-large;
-        padding: 50px;
         margin-left: 5%;
     }
     .Person
@@ -426,7 +503,105 @@ hr {
  {
      display: flex;
      width:auto;
-     margin-left: 10%;
 
  }
+
+#mod {
+   width:270px ;
+   background-color: red;
+}
+
+}
+@media screen and (max-width:596px) {
+    .contact{
+        margin: auto;
+        padding: auto;
+        padding-left: 0px;
     }
+    #maps{
+        width:100%;
+        padding-left: 0px;
+
+    }
+    iframe{
+        width: 90%;
+    }
+    form {
+        display: block;
+        margin:auto;
+        width: 100%;
+    }
+    input,textarea{
+        width: 66%;
+
+    }
+    .conteneur
+ {
+     display: inline-block;
+     height: 70%;
+     width:70%;
+     padding-bottom: 50%;
+     padding-top: 50%;
+     color: black;
+     padding-bottom:50%;
+     padding-top: 50%;
+
+    
+ }
+ .formulaire{
+     margin-bottom: 5px;
+ }
+ .mg {
+     float: none;
+    margin-left: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 10px;
+    
+}
+.Pam {
+    background-color: #E0A33E;
+    width: 95%;
+    height: auto;
+    margin: auto;
+    border: 2px hsl(286, 72%, 24%) solid;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+h2 {
+    display: block;
+    font-size:90%;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: justify;
+}
+#header {
+    display: block;
+    width: auto;
+    height: Auto;
+    padding-bottom: 0px;
+}
+.Status {
+    width: auto;
+    height: auto;
+    /* text-align: justify; */
+    padding-top: 0px;
+}
+.menu{
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+
+}
+#p
+{
+    width:50%;
+    margin-right: 20%;
+}
+
+ 
+    
+}
